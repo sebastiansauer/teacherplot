@@ -1,11 +1,11 @@
 Package: teacherplot
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Providing Some Plots Teachers May Like.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Sebastian Sauer
+Maintainer:  Sebastian Sauer <sebastiansauer1@gmail.com>
+Description: Some typical graphs potentially useful for teaching statistics
+    and related fields.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
