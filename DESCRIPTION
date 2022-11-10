@@ -3,7 +3,7 @@ Type: Package
 Title: Providing Some Plots Teachers May Like.
 Version: 0.1.0
 Author: Sebastian Sauer
-Maintainer:  Sebastian Sauer <sebastiansauer1@gmail.com>
+Maintainer: Sebastian Sauer <sebastiansauer1@gmail.com>
 Description: Some typical graphs potentially useful for teaching statistics
     and related fields.
 License: MIT + file LICENSE
@@ -14,3 +14,5 @@ Imports:
     tibble
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+URL: https://github.com/sebastiansauer/teacherplot
+BugReports: https://github.com/sebastiansauer/teacherplot/issues
