@@ -1,0 +1,5 @@
+usethis::use_pkgdown()
+pkgdown::build_site()
+usethis::use_pkgdown_github_pages()
+devtools::document()
+devtools::build_readme()
