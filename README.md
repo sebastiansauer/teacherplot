@@ -1,4 +1,6 @@
 
+# Teacherplot
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 The goal of teacherplot is to provide simple plots describing basic
