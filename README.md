@@ -1,26 +1,13 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
 # teacherplot
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of teacherplot is to provide some plots teacher may  like if they are into teaching 
-statistics and realted fields.
-
+The goal of teacherplot is to provide some plots teacher may like if
+they are into teaching statistics and realted fields.
 
 ## Installation
 
@@ -34,9 +21,17 @@ devtools::install_packages("https://github.com/sebastiansauer/teacherplot")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(teacherplot)
 library(tidyverse)
+#> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+#> ✔ ggplot2 3.3.6      ✔ purrr   0.3.5 
+#> ✔ tibble  3.1.8      ✔ dplyr   1.0.10
+#> ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
+#> ✔ readr   2.1.3      ✔ forcats 0.5.2 
+#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+#> ✖ dplyr::filter() masks stats::filter()
+#> ✖ dplyr::lag()    masks stats::lag()
 lm1 <- lm(mpg ~ hp, data = mtcars)
 lm1_pred_200 <- predict(lm1, newdata = tibble(hp = 200))
 
@@ -56,4 +51,4 @@ ggplot(mtcars) +
   )
 ```
 
-
+<img src="man/figures/README-example-1.png" width="100%" />

@@ -1,7 +1,7 @@
 Package: teacherplot
 Type: Package
 Title: Providing Some Plots Teachers May Like.
-Version: 0.1.0
+Version: 0.2.0
 Author: Sebastian Sauer
 Maintainer: Sebastian Sauer <sebastiansauer1@gmail.com>
 Description: Some typical graphs potentially useful for teaching statistics
