@@ -8,4 +8,13 @@
 \description{
 Some typical graphs potentially useful for teaching statistics and related fields.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/sebastiansauer/teacherplot}
+  \item \url{https://sebastiansauer.github.io/teacherplot/}
+  \item Report bugs at \url{https://github.com/sebastiansauer/teacherplot/issues}
+}
+
+}
 \keyword{internal}
