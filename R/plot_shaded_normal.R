@@ -18,14 +18,14 @@
 #' @export
 #'
 #' @examples
-#' shaded_normal() + labs(x = "", y = "")
-#' shaded_normal(breaks = -3:3) + labs(x = "", y = "")
-#' shaded_normal(breaks = -3:3) +
+#' shaded_normal_plot() + labs(x = "", y = "")
+#' shaded_normal_plot(breaks = -3:3) + labs(x = "", y = "")
+#' shaded_normal_plot(breaks = -3:3) +
 #'   theme(panel.grid.major.x = element_blank(),
 #'   panel.grid.minor.x = element_blank())
 
 
-shaded_normal <- function(xmin = -3,
+shaded_normal_plot <- function(xmin = -3,
                           xmax = 3,
                           threshold_min = -1.96,
                           threshold_max = 1.96,
